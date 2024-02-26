@@ -25,6 +25,8 @@ class FirestoreClass {
         return currentUserID
     }
 
+    
+
     fun createNote(fragment: AddNotesFragment, note: Note) {
         mFireStore.collection(Constants.NOTES)
             .document()
