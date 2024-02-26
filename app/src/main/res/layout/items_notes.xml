@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="10dp"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:paddingTop="10dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+       >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            >
+
+            <TextView
+                android:id="@+id/notesTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The 7 Habits of Highly Effective People"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif"
+                />
+
+            <TextView
+                android:id="@+id/notesBody"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A great book on leadership and management Stephn Convey"
+                android:textColor="@color/notesTextColor"
+                android:textSize="14sp"
+                android:fontFamily="sans-serif"
+                />
+
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/editNotes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:padding="10dp"
+            android:src="@drawable/edit_vector_icon" />
+
+        <ImageButton
+            android:id="@+id/ib_delete_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:padding="10dp"
+            android:src="@drawable/delete_vector_icon" />
+    </LinearLayout>
+
+
+</LinearLayout>
