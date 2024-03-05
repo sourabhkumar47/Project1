@@ -52,7 +52,7 @@ class NotesFragment : Fragment() {
         mAuth = FirebaseAuth.getInstance()
         val user = mAuth.currentUser
 
-        binding!!.userName.text = "Hi, ${user?.displayName}"
+        binding!!.userName.text = "Welcome"
 
         val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
             .requestIdToken(getString(R.string.default_web_client_id))
