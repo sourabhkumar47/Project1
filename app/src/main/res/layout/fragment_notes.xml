@@ -36,7 +36,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="156dp"
+        android:layout_marginTop="68dp"
         android:layout_marginEnd="20dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
@@ -52,15 +52,6 @@
             android:visibility="gone"
             tools:visibility="gone" />
 
-        <TextView
-            android:id="@+id/tvNoNotesAdded"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="No notes avilable"
-            android:textSize="16sp"
-            android:visibility="visible"
-            tools:visibility="visible" />
     </LinearLayout>
 
     <androidx.cardview.widget.CardView
@@ -102,8 +93,20 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="20dp"
-        tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="202dp" />
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="94dp" />
+
+    <TextView
+        android:id="@+id/tvNoNotesAdded"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="No notes avilable"
+        android:textSize="16sp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="92dp"
+        tools:visibility="visible" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
